@@ -1,0 +1,59 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url("https://media.npr.org/assets/img/2017/10/03/gettyimages-3424235_wide-7e20c43136f8a05b0f74d7f904e559a1b337d37d-s1400-c100.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: green;
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+#navbar {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
